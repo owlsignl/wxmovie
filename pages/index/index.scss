@@ -1,0 +1,33 @@
+.container {
+    box-sizing: border-box;
+    padding: 0 36rpx;
+    width: 100%;
+    .search-box {
+        position: relative;
+        width: 100%;
+        top: 200rpx;
+        input {
+            box-sizing: content-box;
+            height: 80rpx;
+            width: calc(100% - 72rpx);
+            padding: 12rpx 180rpx 12prx 36rpx;
+            border: 1rpx solid #efefef;
+            border-radius: 10rpx;
+        }
+        .search-btn {
+            box-sizing: border-box;
+            position: absolute;
+            top: 0;
+            right: 0;
+            border-radius: 0 10rpx 10rpx 0;
+            width: 180rpx;
+            height: 80rpx;
+            line-height: 80rpx;
+            text-align: center;
+            background-color: #3385ff;
+            color: #fff;
+            text-align: center;
+            z-index: 2;
+        }
+    }
+}

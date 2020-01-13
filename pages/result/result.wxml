@@ -1,0 +1,22 @@
+<cu-custom bgColor="bg-gradual-purple" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">搜索页</view>
+</cu-custom>
+<view class="containter">
+    <view class="movie-list">
+        <view bindtap="openvideo" class="movie-list-item" wx:for="{{result}}" data-id="{{item.id}}" data-flag="{{item.flag}}">
+            <view class="icon">
+                <image src="{{item.pic}}"/>  
+            </view>
+            <view class="content">
+                <view>
+                    {{item.title}}
+                </view>
+                <view class="part">
+                    <view class="part-label">集数:</view>
+                    <view class="part-text">{{item.part || 0}}集</view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

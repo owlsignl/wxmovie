@@ -1,0 +1,46 @@
+.containter {
+  padding: 0 36rpx;
+}
+
+.containter .movie-list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 36rpx 0;
+}
+
+.containter .icon {
+  width: 197rpx;
+  height: 260rpx;
+}
+
+.containter .icon image {
+  width: 100%;
+  height: 100%;
+}
+
+.containter .content {
+  font-size: 30rpx;
+  margin-left: 16rpx;
+}
+
+.containter .content .part {
+  margin-top: 24rpx;
+  font-size: 26rpx;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.containter .content .part .part-label {
+  color: rgba(0, 0, 0, 0.4);
+}
+
+.containter .content .part .part-text {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-left: 8rpx;
+  color: rgba(0, 0, 0, 0.7);
+}
+/*# sourceMappingURL=result.wxss.map */

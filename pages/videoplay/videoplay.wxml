@@ -1,0 +1,13 @@
+<cu-custom bgColor="bg-gradual-purple" isBack="{{true}}">
+  <view slot="backText">返回</view>
+  <view slot="content">播放页</view>
+</cu-custom>
+<view class="container">
+    <video id="myVideo" src="{{source}}" danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+    <scroll-view class="list" scroll-y="true">
+        <button bindtap="changeSource" wx:key="{{item.text}}" wx:for="{{result}}" data-source="{{item.source}}" 
+        class="list-item cu-btn round {{jsid === index ? 'bg-blue':'bg-white'}}" data-id="{{index}}">
+            {{item.text}}
+        </button>
+    </scroll-view>
+</view>

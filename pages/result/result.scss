@@ -1,0 +1,32 @@
+.containter {
+    padding: 0 36rpx;
+    .movie-list-item {
+        display: flex;
+        padding: 36rpx 0;
+    }
+    .icon {
+        width: 197rpx;
+        height: 260rpx;
+        image {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .content {
+        font-size: 30rpx;
+        margin-left: 16rpx;
+        .part {
+            margin-top: 24rpx;
+            font-size: 26rpx;
+            display: flex;
+            .part-label {
+                color: rgba(0, 0, 0, .4);
+            }
+            .part-text {
+                flex: 1;
+                margin-left: 8rpx;
+                color: rgba(0, 0, 0, .7);
+            }
+        }
+    }
+}
